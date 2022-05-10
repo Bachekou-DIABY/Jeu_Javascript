@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrap/bootstrap-4.4.1-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/b99b9afb88.js" crossorigin="anonymous"></script>
+  <title>Dice game</title>
+</head>
+<body>
+  <main>
+    <div class="grid-container">
+      <div class="row justify-content-center ">
+        <button id="new_game" class="btn-outline-danger" aria-label="plus">
+          <i class="fas fa-plus"></i>
+        </button>
+        <span class="new-game"> New Game</span>
+      </div>
+      <div class="row center">
+        <div class="col-5">
+          <p class="player" id="player_1">Player 1</p>
+          <p class="global-score" id="global_score_1">0</p>
+          <div class="box">
+            <p class="current-score"> ROUND</p>
+            <p class="round-score" id="round_score_1">0</p>
+          </div>
+        </div>
+        <div class="col-2">
+          <button id="dice" class="btn-dice">Roll dice</button>
+          <button id="hold" class="btn-hold">Hold</button>
+        </div>
+        <div class="col-5">
+          <p class="player" id="player_2">Player 2</p>  
+          <p class="global-score" id="global_score_2">0</p>
+            <div class="box">
+              <p class="current-score"> ROUND</p>
+              <p class="round-score" id="round_score_2">0</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

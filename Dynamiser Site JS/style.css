@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+  font-family:'Lato', sans-serif;
+
+}
+
+.center{
+  height:80vh;
+}
+
+#new_game{
+padding: 10px;
+padding-left:20px;
+padding-right:20px;
+margin-top: 10px;
+border-radius: 50%;
+background-color: transparent;
+font-size: 30px;
+}
+
+.new-game{
+  padding-top: 10px;
+  font-size: 40px;
+}
+
+.player{
+  padding-top: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  font-size: 40px;
+}
+
+.global-score{
+  font-size:40px;
+  text-align:center;
+  color:red;
+}
+
+.btn-dice{
+  margin-top: 300px;
+  margin-inline-start:30%;
+  background-color: transparent;
+  border: transparent;
+  text-align:center;
+}
+
+.btn-hold{
+  margin-top: 40px;
+  margin-inline-start:35%;
+  background-color: transparent;
+  border: transparent;
+  text-align:center;
+}
+
+.box{
+  background-color: rgb(219, 58, 58);
+  height: 100px;
+  width: 150px;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.current-score{
+  padding-top: 10px;
+  text-align:center;
+}
+
+.round-score{
+  text-align: center;
+  color: white;
+}
